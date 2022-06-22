@@ -1,0 +1,26 @@
+button {
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  transition: 0.2s ease;
+  &.primary {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255, 119, 119);
+    padding: 10px;
+    border-radius: 3px;
+    &:hover {
+      background-color: rgb(255, 95, 95);
+    }
+  }
+  &.secondary {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(113, 113, 255);
+    padding: 10px;
+    border-radius: 3px;
+    &:hover {
+      background-color: rgb(91, 91, 255);
+    }
+  }
+}

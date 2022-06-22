@@ -1,0 +1,21 @@
+.navigation {
+  background-color: #2196f3;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+  .link {
+    padding: 23px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  &.active {
+    background-color: #1e88e5;
+    color: #fff;
+  }
+}
